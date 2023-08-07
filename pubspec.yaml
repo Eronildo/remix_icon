@@ -1,0 +1,27 @@
+name: remix_icon
+description: Open-source neutral-style system symbols elaborately crafted for designers and developers. All of the icons are free for both personal and commercial use.
+version: 1.0.0
+repository: https://github.com/Eronildo/remix_icon
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+    - family: RemixIcon
+      fonts:
+        - asset: assets/fonts/RemixIcon.ttf
+
+screenshots:
+  - description: The RemixIcon logo.
+    path: assets/images/logo.svg
