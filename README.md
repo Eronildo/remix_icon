@@ -12,5 +12,5 @@ flutter pub add remix_icon_icons
 ## Usage
 
 ```dart
-Icon(RemixIcon.flutter_fill)
+Icon(RemixIcon.flutter)
 ```

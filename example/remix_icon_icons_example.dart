@@ -31,11 +31,11 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        leading: const Icon(RemixIcon.flutter_fill),
+        leading: const Icon(RemixIcon.flutter),
         title: Text(title),
         centerTitle: true,
         actions: const [
-          Icon(RemixIcon.remixicon_fill),
+          Icon(RemixIcon.remixicon),
         ],
       ),
       body: Center(
@@ -50,7 +50,7 @@ class MyHomePage extends StatelessWidget {
               .showSnackBar(const SnackBar(content: Text('Favorite Added')));
         },
         tooltip: 'add_favorite',
-        child: const Icon(RemixIcon.heart_add_fill),
+        child: const Icon(RemixIcon.heart_add),
       ),
     );
   }
